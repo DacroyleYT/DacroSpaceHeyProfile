@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'DacroComic';
+    src: url('https://dacroyleyt.neocities.org/DacroComic.ttf');
+}
+* {
+    cursor: url('https://download1075.mediafire.com/fzbwzn1e2jzgqoEKRXHX-6r_cpZRlBC9yKwGlPPhnd4WX4uS1V0ptbJnUYs6uWzpgiEBxkW_XmR3WtnZQt6NYIIGXV7BMfEfpm4JLGrrUO40d_4S3KZCRATPHNwOV2XysSWil4JFULNq4O57XPxDqiTROBW5wYFb70OEKQB1nQ/bgfb90up1km9qfv/dacromm-cursor.cur'), auto;
+    font-family: 'DacroComic';
+    font-size: 18px;
+    font-style: 'normal';
+}
+a:hover {
+    cursor: url('https://download1076.mediafire.com/8hl9carl3wbgj0VUKAyoDpFVzeiC1bKDV2FKqxrdpodVjLh69oiC7nnssFDTmZ45r5n1P38Z8fVBOCd_kooqgZAqLfVTQ838Nwa7LHAcvSVt9Nbfin3gH_NGrMlaqhjQLXRtBG3O0VNsEcbIje5CdpJ7fI59CMbvRq9bFN_byw/5zsmglgsnioficy/dacromm-cursor-link.cur'), auto; }
+body {
+    background-image: url('https://download1590.mediafire.com/7sy7ybvx6kpggo8WEG7k8ymXxf_A9rgdu9uiCYuA8CEsHNapkoIzZC7syfKvB4AWNtKhW_a629s0laa29VO8MMlvFynoPNPK35tMmuppUU6xphE7KmfJi8AMP57B_1qMmTnD_Aus4_piX_BErzk-AvogtvTJh7wDDjAiz3iOew/vglvsnfx6w2uone/DacroWatermarkBG.png');
+}
+.profile-pic img {
+    outline:#000000;
+    border-radius: var(6)
+}
+.logo {
+content:url("https://download1528.mediafire.com/q3lyk9xj27mgoBNccZHZ5jiI-YTBhedTMtATmOLnzqjWOKRusRXDXLvOHnNe30ad4xD7JNwbMZtpJ2uT-R-h39IJFX1Ojkk-bqGsMQrpyAEEQWB2u0SgRzSU2HbC_iHVh0CoW7OLQ3DjscZkdxUAOMNIB-wJFjTaK33D4EoMQVr7-A/lper9ckg05zz4sl/spaceheyLogo-comic.png");
+}
+.contact .inner a img {
+    font-size: 0;
+}
+.contact .inner a img:before {
+    font-size: 1em;
+    display: block
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+	/* Add to Friends */
+	content: url('https://download848.mediafire.com/xdl71xlqmgqgOvJ0Yr5aXuDjCI7KasaoKZW9AWbfm5VN7UvPNFl3_SXaZQXtLotWnUqH1YAD_CMy_ku_I8RiRwE_cE-yyGvupAXRnvne1vYJinWXn4PK8AS90SC1NNyqOPNhUxWIX_j_9rSLvEvGwZ3mYNga7ZH_Rr2tBXKp6w/rqyun1enncw32ka/friend.png')
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+	/* Add to Favorites */
+	content: url('https://download1075.mediafire.com/rchpkf27woug5Q_Is9nL62AedLmp4J3vheA4oozMelqUHfrr9yM9ol662rEqT5s2pDf4Qqy6S5sfxKVwTb_nRjzXbY1DjbJSUno7X3XlBa57x6NSwwXNnSfUKbTcii1utyuUkj6_PzB0RSjMV6LgPFwLrUFs-p7fU1wb7kXOkj1Quw/q6tkzroj4f4bzaq/favorite.png')
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+	/* Send Message */
+	content: url('https://download1640.mediafire.com/5byq7jvs23ogNz4HEvAblOUlEYm_VVvdfIW2hxsEicIKRFl4ycdO-GnGkGfgGGuuUbxMin57qGfUlq5a7OELxpPnj0WbpZprzIDOrR7990J1Iz4eqvf1eM1iEehPXyadXwJp3D2TbPyfqx4ZDDVvreCWittFi4Ry8QouamBm-2oNKw/yjw67dgscshrwx2/message.png')
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+	/* Forward to Friend */
+	content: url('https://download1638.mediafire.com/n8805byir3vgq5JMdINywli4e5gEBqwEc4LrhXjG2oaG2Dib6fG4zBlD9tlkFffh90iiunUx4HbtSMqF9ap191_DdwyhlAIt0qHcxaW7EThAkWVDVDyIl9gWaEYsOyWHexHE3FqqJ8vqMJOAmKofvmoL9Eks0Butu-fImSgv07gSOw/q76jqvik21inh60/forward.png')
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+	/* Instant Message */
+	content: url('https://download1580.mediafire.com/diy55ko3h9cgy0V6FvmO-WkPi8CxaF3_wZAvkAKMNeoK8eDRdHJUu0qc3RgAv6_ocAWOM-SiHoJz3qlEkiqS2dS8Zhsy1VYyLguPHwXQgXGdyq_HDT6J9NrFnN33mg2bfVqw4Y1ubMnwfijWLqwdFzNsW-CnnAKHBV6pZdboIl6w9Q/dw0hqqu46nartze/instantMessage.png')
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+	/* Block User */
+	content: url('https://download948.mediafire.com/em2mxd0kcrqgae68fe2Sc3hEEYc06UmMWzkmyqAtQsz4HD2oDf2fVhVhBckZ3OZt4qqqv8W3PtSjJx18jf7oyu58bSojtpDL-WAmBbtytfv_dcfMzzNEPv0iSHIyG6EEeexH6qPifYXe6ilmnU7SCOYuXhZlg8yXUVhaefeI7PMO2w/u956kv3h7cm9bye/block.png')
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+	/* Add to Group */
+	content: url('https://download1321.mediafire.com/5b4epuwc1mhgqkNqDKxxbS52sArjdLk8LV_Vzfw-XZM1IOeiGEnh9PZlTx7ywSnkXpQVrjrpWpfap5IsvSblGJNqGCM9_uvGHNNyPkrpUiDVBeAg8agYOq-yYjN1ZqClhtCaveLsXbs0OoLi4bNI6EQXeRtR87dhkwc23QIEY4EIDA/0iphmg53pszdy5m/group.png')
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+	/* Report Profile */
+	content: url('https://download937.mediafire.com/hawiswkq3otg04C6rjfvY-8OKPaQr2poePMjyTYXV7qLMTC5JcjOVKOskRfvxarnZiAxM5TsI421IZ_H_-EzSMtDcGonnLONm9UN_75q7j_oXtAiT_LVwLA8dGWbo-SNztpkfQPYlu_-fj6IgA9GwIyfxzNQNduEcCFPoItyFNljnw/4g2gq4w1d9axkk4/report.png')
+}
+h1 {
+font-family: 'DacroComic';
+color: #ffffff;
+padding-bottom:0px;
+padding-top:0px;
+text-shadow: 0 0 3px #000000;
+}
